@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>TaskApp</title>
+</head>
+<body>
+    <h1>Welcome to TaskApp</h1>
+    <p>Choose an option:</p>
+    <ul>
+        <li><a href="{% url 'add_user' %}">Add Users</a></li>
+        <li><a href="{% url 'add_task' %}">add Tasks</a></li>
+        <li><a href="{% url 'list_tasks' %}">list tasks</a></li>
+        <li><a href="{% url 'list_users' %}">list users</a></li>
+        <li><a href="{% url 'export_to_excel' %}">export to excel</a></li>
+    </ul>
+</body>
+</html>
