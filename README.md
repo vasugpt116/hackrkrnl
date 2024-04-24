@@ -1,9 +1,14 @@
 Hello HackerKernel,
 This is a project that adds users and task and then one can export it as excel sheets on thier personal computer.
+
 I have added the virtual environment named "vasutask" which enables user to not install different packages multiple times.
+
 The project is saved inside "taskproject" which have an application named "taskapp".
+
 All the database queries are done in DjangoORM and have an sqllite database(as provided by django).
+
 Application have 6 html files: 1 index.html, 1 base.html(which provides base to other 4), 4 different html files for different pages.
+
 Download to excel do not have an webpage since it can directly be downloaded.
 
 Project Structure
